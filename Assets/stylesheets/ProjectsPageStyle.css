@@ -14,7 +14,7 @@
     align-items: stretch;
 }
 #project2-box {
-    margin-top:9rem;
+    margin-top:5rem;
 }
 
 .useless-game-description-box {
@@ -110,9 +110,7 @@
 
 /* buttons */
 
-#VazeNeonItchEmbed {
-    margin-left: 40px;
-}
+
 
 /* .project-game-download-button {
     padding: 25px;
@@ -176,6 +174,10 @@
 }
 
 /* embed */
+
+.ItchEmbed {
+    margin-left: 40px;
+}
 
 .ytEmbed-gameplay-video
 {
