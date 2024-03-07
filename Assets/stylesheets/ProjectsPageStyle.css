@@ -14,7 +14,7 @@
     align-items: stretch;
 }
 #project2-box {
-    margin-top:22rem;
+    margin-top:9rem;
 }
 
 .useless-game-description-box {
@@ -59,6 +59,13 @@
     margin-left: 20px;
     text-shadow: -1px -1px 0 rgb(162, 0, 226), 1px -1px 0 rgb(162, 0, 226), -1px 1px 0 rgb(162, 0, 226), 1px 1px 0 rgb(162, 0, 226);
 }
+.h1-d {
+    color: rgb(0, 251, 255);
+    font-family: monospace;
+    font-size: 50px;
+    margin-left: 20px;
+    text-shadow: -1px -1px 0 rgb(162, 0, 226), 1px -1px 0 rgb(162, 0, 226), -1px 1px 0 rgb(162, 0, 226), 1px 1px 0 rgb(162, 0, 226);
+}
 .h2-a {
     color:rgb(0, 161, 22);
     text-align: left;
@@ -92,13 +99,6 @@
     font-family: monospace;
     font-size: 30px;
     margin-left: 20px;
-}
-
-.h2-sysreqrmnts-item {
-    color: white;
-    margin-left: 30px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
 }
 
 .p-useless-game-description {
@@ -173,4 +173,11 @@
 }
 .i-have-no-idea-what-this-is {
     color: white;
+}
+
+/* embed */
+
+.ytEmbed-gameplay-video
+{
+    margin-left: 40px;
 }
