@@ -1,0 +1,81 @@
+.body {
+    background-color: rgb(27, 27, 27);
+}
+
+#box1 {
+    position: relative;
+    display: flex;
+    height: 10;
+    flex-direction: row;
+    gap: 10vw;
+}
+
+#embedBox {
+    margin-top: 10vw;
+}
+
+#h1-a {
+    color: rgb(172, 220, 229);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-left: 15vw;
+    margin-top: 5vw;
+}
+
+#h2-embedBoxTitle {
+    color: rgb(172, 220, 229);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-left: 10vw;
+    margin-top: 15vw;
+    font-size: 18px;
+}
+#songDesc {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    width: 45vw;
+    font-size: 17px;
+    color: rgb(219, 219, 219);
+    margin-left: 10vw;
+}
+
+#songCoverImg {
+    height: 25vw;
+    position: absolute;
+    right: 0;
+    margin-right: 10vw;
+}
+
+#bandcamp-Embed {
+    margin-left: 10vw;
+}
+
+#soundcloud-embed {
+    width: 47vw;
+    margin-left: 10vw;
+}
+
+#bandcamp-embed-title {
+    margin-left: 10vw;
+    margin-top: 5vw;
+    color: rgb(172, 220, 229);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.embed-title {
+    margin-left: 10vw;
+    margin-top: 2vw;
+    color: rgb(172, 220, 229);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#yt-embed {
+    margin-left: 10vw;
+    margin-top: 1vw;
+}
+
