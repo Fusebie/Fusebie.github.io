@@ -70,7 +70,7 @@
     border: 2px solid rgb(221, 221, 221);
     height: 15vw;
     margin-top: 5vw;
-    border-radius: 10px;
+    border-radius: 0.7vw;
     display: flex;
 }
 
@@ -103,7 +103,7 @@
     text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
     margin-left: 14.7vw;
     font-family: monospace;
-    margin-top: 17vw;
+    margin-top: 16vw;
 }
 .h2-greet {
     font-size: 30px;
@@ -190,7 +190,8 @@
 #songCoverImg {
     margin-left: 0.5vw;
     margin-top: 0.8vw;
-    border-radius: 10px;
+    border-radius: 0.7vw;
+    max-height: 13.5vw;
 }
 
 .smlink-logo {
