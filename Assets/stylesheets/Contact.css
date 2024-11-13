@@ -41,6 +41,12 @@
     height: 50px;
 }
 
+#github-logo {
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
 #soundcloud-logo {
     height: 58px;
 }

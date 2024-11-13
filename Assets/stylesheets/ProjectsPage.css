@@ -1,0 +1,10 @@
+.body {
+    background-color: rgb(27, 27, 27);
+}
+
+#h1-pageTitle {
+    font-size: 4rem;
+    color: rgb(118, 0, 209);
+    text-align: center;
+    font-family: monospace;
+}
