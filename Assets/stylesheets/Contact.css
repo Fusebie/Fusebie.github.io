@@ -1,15 +1,15 @@
 /* body */
-.contactPage {
+#contactPage {
     background-color:  rgb(20, 20, 20);
 }
 
 /* divs */
-.div-paragraph {
+#div-paragraph {
     margin: auto;
     width: 50%;
 }
 
-.sm-links {
+#sm-links {
     display: flex;
     align-items: stretch;
     gap: 30px;
@@ -20,7 +20,7 @@
 }
 /* headings */
 
-.h1-a {
+#h1-pageHeader {
     font-size: 5rem;
     color: rgb(118, 0, 209);
     text-align: center;
@@ -29,7 +29,7 @@
 
 /* paragraphs */
 
-.contact-p {
+#contact-p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 25px;
     color: white;
@@ -37,7 +37,7 @@
 }
 
 /* images */
-.smlink-logo {
+.smlink-logo-img {
     height: 50px;
 }
 

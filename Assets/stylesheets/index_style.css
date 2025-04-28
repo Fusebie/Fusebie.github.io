@@ -1,14 +1,16 @@
-.index {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+#body {
     background-color: rgb(20, 20, 20);
 }
 
 #header-container {
     height: 30vw;
     width: 100%;
-    background-image: url(/Assets/images/gameScreenshot.png);
+    background-image: none;
 }
 
-.welcome-wrapper {
+#welcome-wrapper {
     background-color: black;
     height: 6.7vw;
     width: 60vw;
@@ -16,15 +18,11 @@
     justify-self: center;
 }
 
-/* header {
-    position: absolute;
-} */
-
-.box-about {
+#about-container {
     margin-top: 6.7vw;
     margin-left: 13.4vw;
 }
-#about2-box {
+#about2-container {
     margin-top: 6.7vw;
     margin-left: 13.4vw;
     max-width: 55vw;
@@ -89,7 +87,7 @@
     height: 14.7vw;
 }
 
-.sm-links {
+#sm-links-container {
     display: flex;
     align-items: stretch;
     gap: 3.4vw;
@@ -97,7 +95,7 @@
 
 /*h1 and other text elements*/
 
-.h1-name {
+#h1-fusebie {
     font-size: 4rem;
     color: rgb(20, 20, 20);
     text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
@@ -105,12 +103,11 @@
     font-family: monospace;
     margin-top: 16vw;
 }
-.h2-greet {
+#h2-welcome {
     font-size: 30px;
-    font-family: monospace;
-    /* background-color: black; */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
     color:rgb(62, 217, 222);
-    /* font-family: monospace; */
     text-align: left;
     margin-left: 1.4vw;
     letter-spacing: 1px;
@@ -124,28 +121,31 @@
 
 .h1-about {
     color: rgb(0, 235, 252);
-    font-family: monospace;
+    font-family: roboto;
     font-size: 50px;
 }
 
 .h1-about2 {
     color: rgb(0, 235, 252);
-    font-family: monospace;
+    font-family: roboto;
     font-size: 40px;
 }
 
 #h1-recentstuf {
     color: rgb(0, 235, 252);
-    font-family: monospace;
+    font-family: roboto;
+    background-color: black;
+    padding: 10px;
+    width: 250px;
 }
 
-.h1-RTtitle {
+.h1-RecentThingTitle {
     color: rgb(229, 229, 229);
     font-family: monospace;
     margin-left: 2vw;
 }
 
-#postShortDesc {
+.postShortDesc {
     color: rgb(229, 229, 229);
     font-family: sans-serif;
     letter-spacing: 2px;
@@ -153,19 +153,14 @@
     
 }
 
-.h1-dylmw {
-    color: rgb(0, 255, 0);
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.h1-sm {
-    font-family: monospace;
+#h1-SocialMedia {
+    font-family: roboto;
     font-size: 30px;
     color: rgb(0, 217, 255);
     text-align: center;
 }
 .h1-intro {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: roboto;
     font-size: 25px;
     color: white;
 }
@@ -194,13 +189,13 @@
     max-height: 13.5vw;
 }
 
-.smlink-logo {
+.smlink-logo-img {
     height: 3.4vw;
 }
-#soundcloud-logo {
+#soundcloud-logo-img {
     height: 3.9vw;
 }
-#github-logo {
+#github-logo-img {
     background-color: white;
     height: 3.4vw;
     border-radius: 50%;

@@ -5,6 +5,10 @@
         <title>Fusebie | home</title>
         <link rel="stylesheet" href="./Assets/stylesheets/index_style.css"/>
         <link rel="stylesheet" href="./Assets/stylesheets/navbar.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
 
     <!-- Google tag (gtag.js) -->
@@ -16,8 +20,8 @@
 
     gtag('config', 'G-HF9952LS1L');
     </script>
-
-    <body class="index">
+    
+    <body id="body" onload="SetRandomTheme()">
         
         <div id="header-container"> 
             <header>
@@ -34,20 +38,20 @@
                 </div>
             </header>
              
-            <h1 class="h1-name">Fusebie</h1>
+            <h1 id="h1-fusebie">Fusebie</h1>
         </div>
 
-        <div class="welcome-wrapper">
-            <p class="h2-greet">welcome to my website :D<p> 
+        <div id="welcome-wrapper">
+            <p id="h2-welcome">welcome to my website :D<p> 
         </div>
 
-        <div class="box-about">
+        <div id="about-container">
             <h1 class="h1-intro">Hey there!</h1>
             <p class="p-about1">
                 I’m Fusebie, I’m 17, a musician and a computer science enthusiast.
             </p>
         </div>
-        <div id="about2-box">
+        <div id="about2-container">
 
             <h1 class="h1-about2">About</h1>
 
@@ -68,8 +72,8 @@
                 <div class="recentThing">
                     <a href="SummerNights(demo).html"><img id="songCoverImg" src="/Assets/images/summer nights (demo) cover art.png" alt="song cover image"></a>
                         <div class="RT-verticalAlign-box">
-                            <a href="SummerNights(demo).html"><h1 class="h1-RTtitle">Summer Nights (demo) by me</h1></a>
-                            <p id="postShortDesc">I released my first song :D (click on the img)</p>
+                            <a href="SummerNights(demo).html"><h1 class="h1-RecentThingTitle">Summer Nights (demo) by me</h1></a>
+                            <p class="postShortDesc">I released my first song :D (click on the img)</p>
                         </div>
                 </div>
 
@@ -83,26 +87,26 @@
         
         <div class="footer">
             <div class="footer-social-media-section">
-                <h1 class="h1-sm">Social Media</h1>
+                <h1 id="h1-SocialMedia">Social Media</h1>
                 
-                <div class="sm-links">
-                    <a href="https://www.youtube.com/channel/UChvZD0eUoBs7MKRF52WAVCg" target="_blank"><img class="smlink-logo" alt="youtube-logo" src="./Assets/images/youtube logo.png" ></a>
+                <div id="sm-links-container">
+                    <a href="https://www.youtube.com/channel/UChvZD0eUoBs7MKRF52WAVCg" target="_blank"><img class="smlink-logo-img" alt="youtube-logo" src="./Assets/images/icons/youtubelogo.png" ></a>
 
-                    <a href="https://www.twitter.com/fusebie_/" target="_blank"><img class="smlink-logo" alt="twitter-logo" src="./Assets/images/twitterLogo.png" ></a>
+                    <a href="https://www.twitter.com/fusebie_/" target="_blank"><img class="smlink-logo-img" alt="twitter-logo-img" src="./Assets/images/icons/twitterLogo.png" ></a>
 
-                    <a href="https://www.instagram.com/fusebie_/" target="_blank"><img class="smlink-logo" alt="instagram-logo" src="./Assets/images/instagram logo.png" ></a>
+                    <a href="https://www.instagram.com/fusebie_/" target="_blank"><img class="smlink-logo-img" alt="instagram-logo-img" src="./Assets/images/icons/instagram logo.png" ></a>
 
-                    <a href="https://discord.gg/5d4ZhQeSGj" target="_blank"><img class="smlink-logo" alt="discord-logo" src="./Assets/images/discord-mascot.png" ></a>
+                    <a href="https://discord.gg/5d4ZhQeSGj" target="_blank"><img class="smlink-logo-img" alt="discord-logo-img" src="./Assets/images/icons/discord-mascot.png" ></a>
 
-                    <a href="https://soundcloud.com/fusebie117" target="_blank"><img id="soundcloud-logo" src="./Assets/images/soundcloudLogo.png" alt="soundcloud logo"></a>
+                    <a href="https://soundcloud.com/fusebie117" target="_blank"><img id="soundcloud-logo-img" src="./Assets/images/icons/soundcloudLogo.png" alt="soundcloud logo"></a>
 
-                    <a href="https://github.com/Fusebie" target="_blank"><img id="github-logo" alt="Github-logo" src="./Assets/images/githubIcon.png" ></a>
+                    <a href="https://github.com/Fusebie" target="_blank"><img id="github-logo-img" alt="Github-logo" src="./Assets/images/icons/githubIcon.png" ></a>
 
-                    <a href="https://fusebie.itch.io/" target="_blank"><img class="smlink-logo" src="./Assets/images/itch.io.png" alt="itch.io logo"></a>
+                    <a href="https://fusebie.itch.io/" target="_blank"><img class="smlink-logo-img" src="./Assets/images/icons/itch.io.png" alt="itch.io logo"></a>
 
-                    <a href="https://fusebie.bandcamp.com/follow_me" target="_blank"><img class="smlink-logo" src="./Assets/images/bandcamp-icon-512x512-ar57676w.png" alt="itch.io logo"></a>
+                    <a href="https://fusebie.bandcamp.com/follow_me" target="_blank"><img class="smlink-logo-img" src="./Assets/images/icons/bandcamp-icon-512x512-ar57676w.png" alt="itch.io logo"></a>
                     
-                    <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&tohttps://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=+fusebie117@gmail.com" target="_blank"><img class="smlink-logo"src="./Assets/images/mail.png" alt="mail-logo"></a>
+                    <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&tohttps://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=+fusebie117@gmail.com" target="_blank"><img class="smlink-logo-img" src="./Assets/images/icons/mail.png" alt="mail-logo"></a>
                 </div>
             </div>
         </div>
