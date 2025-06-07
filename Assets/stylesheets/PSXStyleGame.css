@@ -1,0 +1,114 @@
+#body {
+    background-color: black;
+}
+
+@font-face {
+    font-family: pixelFont;
+    src: url(/Assets/fonts/vcr_osd_mono/VCR_OSD_MONO_1.001.ttf);
+}
+
+/* div */
+#openedwindowcontainer {
+    position: absolute;
+    height: 600%;
+    width: 99%;
+}
+
+
+#openedwindow {
+    position: sticky;
+    top: 7%;
+    left: 10%;
+    right: auto;
+    border: 2px solid white;
+    height: 40vw;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#openedwindow-inner {
+    border: 2px solid white;
+    width: 77vw;
+    height: 37vw;
+    margin-bottom: 5px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.openedwindowbutton-container {
+    margin-left: 87%;
+    margin-right: 0%;
+    margin-top: 2px;
+    justify-content: space-between;
+}
+
+.window {
+    border: 2px solid white;
+    width: 700px;
+    height: 470px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vw;
+}
+
+.button-container {
+    margin-left: 87%;
+    margin-right: 0%;
+    margin-top: 2px;
+    justify-content: space-between;
+}
+
+.windowbutton {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.windowbutton:hover {
+    background-color: rgb(96, 194, 255);
+}
+
+.window-inner {
+    border: 2px solid white;
+    width: 677px;
+    height: 430px;
+    margin-bottom: 5px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/* text */
+#h1-pageHeader {
+    font-size: 3rem;
+    color: white;
+    margin-left: 14.7vw;
+    font-family: pixelFont;
+    margin-top: 16vw;
+    font-weight: 300;
+}
+
+#p-gamestatus {
+    font-size: 1.3rem;
+    color: white;
+    margin-left: 14.7vw;
+    font-family: pixelFont;
+    margin-top: 10vw;
+    font-weight: 300;
+}
+
+#p-discordpromo {
+    font-size: 1rem;
+    color: white;
+    margin-left: 14.7vw;
+    font-family: pixelFont;
+    font-weight: 300;
+}
+

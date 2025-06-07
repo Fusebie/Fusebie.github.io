@@ -38,7 +38,7 @@
 /*h1 , p , and other text elements*/
 
 .h1-a {
-    color: rgb(0, 255, 213);
+    color: rgb(63, 204, 255);
     text-align: center;
     font-family: sans-serif;
     font-size: 60px;
@@ -46,7 +46,7 @@
 }
 
 .h1-b {
-    color: rgb(0, 255, 200);
+    color: rgb(63, 204, 255);
     font-family: sans-serif;
     font-size: 50px;
 }
@@ -58,11 +58,11 @@
     margin-left: 20px;
 }
 .h1-d {
-    color: rgb(0, 251, 255);
+    color: rgb(63, 204, 255);
     font-family: sans-serif;
     font-size: 50px;
     margin-left: 20px;
-    text-shadow: -1px -1px 0 rgb(162, 0, 226), 1px -1px 0 rgb(162, 0, 226), -1px 1px 0 rgb(162, 0, 226), 1px 1px 0 rgb(162, 0, 226);
+    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0);
 }
 .h2-a {
     color:rgb(0, 161, 22);
@@ -80,7 +80,7 @@
 }
 
 .h1-about-proj1 {
-    color: rgb(0, 235, 252);
+    color: rgb(63, 204, 255);
     font-family: monospace;
     font-size: 50px;
     margin-left: 40px;
@@ -95,9 +95,11 @@
 
 .p-game-description {
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 17px;
+    padding: 10px;
     color: white;
     font-family:sans-serif;
+    background-color: black;
 }
 .p-discordPromo {
     margin-left: 20px;
