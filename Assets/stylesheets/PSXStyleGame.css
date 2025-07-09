@@ -35,7 +35,7 @@
 
 #openedwindow-inner {
     border: 2px solid white;
-    width: 77vw;
+    width: 78.5vw;
     height: 37vw;
     margin-bottom: 5px;
     background-position: center;
@@ -44,8 +44,8 @@
     background-color: black;
 }
 
-.openedwindowbutton-container {
-    margin-left: 87%;
+#openedwindowbutton-container {
+    margin-left: 90%;
     margin-right: 0%;
     margin-top: 2px;
     justify-content: space-between;
