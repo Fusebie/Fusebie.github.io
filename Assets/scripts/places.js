@@ -14,5 +14,5 @@ function maximize(contentlink)
 }
 function minimize()
 {
-
+    
 }

@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VideoGame</title>
+    <title>Places</title>
     <link rel="stylesheet" href="./Assets/stylesheets/navbar.css">
-    <link rel="stylesheet" href="./Assets/stylesheets/PSXStyleGame.css">
+    <link rel="stylesheet" href="./Assets/stylesheets/places.css">
     
-    <script src="/Assets/scripts/PSXStyleGame.js"></script>
+    <script src="/Assets/scripts/places.js"></script>
 </head>
     <body id="body">
 
@@ -38,7 +38,7 @@
                 </div>
             </header>
 
-            <h1 id="h1-pageHeader">(dont have a name for it yet)</h1>
+            <h1 id="h1-pageHeader">Places</h1>
 
             <p id="p-gamestatus">game currently in development</p>
             <br>
@@ -87,7 +87,17 @@
             <div class="window-inner" style="background-image: url(Assets/images/backgrounds/corridor.png);"> 
             </div>
         </div>
-        <div class="window" style="margin-left: 25%;">
+        <div class="window" style="margin-left: 30%;">
+            <div class="button-container">
+                <img width="20px" onclick="" class="windowbutton" height="20px" src="Assets/images/icons/window/minimizebutton.png" alt="minimize button">
+                <img width="20px" onclick="maximize('/Assets/images/backgrounds/corridorRoom1.png')" class="windowbutton" height="20px" src="Assets/images/icons/window/maximizebutton.png" alt="maximize button">
+                <img width="20px" onclick="alert('No')" class="windowbutton" height="20px" src="Assets/images/icons/window/closebutton.png" alt="close button">
+            </div>
+            <!-- content -->
+            <div class="window-inner" style="background-image: url(Assets/images/backgrounds/corridorRoom1.png);"> 
+            </div>
+        </div>
+        <div class="window" style="margin-left: 10%;">
             <div class="button-container">
                 <img width="20px" onclick="" class="windowbutton" height="20px" src="Assets/images/icons/window/minimizebutton.png" alt="minimize button">
                 <img width="20px" onclick="maximize('/Assets/images/backgrounds/snow2.png')" class="windowbutton" height="20px" src="Assets/images/icons/window/maximizebutton.png" alt="maximize button">
