@@ -4,16 +4,24 @@
     background-color: rgb(20, 20, 20);
 }
 
+
 #header-container {
     height: 30vw;
     width: 100%;
     background-image: none;
 }
 
+#pageTitle-container {
+    display: flex;
+    text-align: center;
+    margin-top: 14vw;
+    margin-left: 10vw;
+}
+
 #welcome-wrapper {
     background-color: black;
-    height: 6.7vw;
-    width: 60vw;
+    height: 6.5vw;
+    width: 72vw;
     display: flex;
     justify-self: center;
 }
@@ -22,6 +30,7 @@
     margin-top: 6.7vw;
     margin-left: 13.4vw;
 }
+
 #about2-container {
     margin-top: 6.7vw;
     margin-left: 13.4vw;
@@ -31,32 +40,30 @@
 #navbar-itemE {
     background: rgba(0, 234, 255, 0);
     color: rgb(255, 255, 255);
-    padding: 20px 40px;
+    padding: 1.5vw 3vw;
     text-decoration: none;
     text-transform: uppercase;
     display: flex;
     justify-content: space-around;
-    font-size: 15px;
-    border: 3px solid white;
+    font-size: 1.35vw;
+    border: 0.21vw solid white;
     flex-wrap: wrap;
     font-family:sans-serif;
-    width: 110px;
-    font-size: 20px;
+    width: 7.5vw;
 }
 #navbar-itemE:hover {
     background: rgba(0, 234, 255, 0.642);
     color: rgb(5, 5, 5);
-    padding: 20px 40px;
+    padding: 1.5vw 3vw;
     text-decoration: none;
     text-transform: uppercase;
     display: flex;
     justify-content: space-around;
-    font-size: 15px;
-    border: 3px solid white;
+    font-size: 1.35vw;
+    border: 0.21vw solid white;
     flex-wrap: wrap;
     font-family:sans-serif;
-    width: 110px;
-    font-size: 20px;    
+    width: 7.5vw;   
 }
 
 
@@ -71,6 +78,14 @@
     border-radius: 0.7vw;
     display: flex;
     background-color: black;
+}
+
+#item1 {
+    display: flex;
+    flex-direction: row;
+    height: 7vw;
+    align-items:center;
+    width: fit-content;
 }
 
 #item2 {
@@ -98,29 +113,37 @@
 /*h1 and other text elements*/
 
 #h1-fusebie {
-    font-size: 4rem;
+    font-size: 3.7vw;
     color: rgb(20, 20, 20);
     text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
-    margin-left: 14.7vw;
+    margin-left: 2.6vw;
+    margin-top: 5vw;
     font-family: monospace;
-    margin-top: 16vw;
+    /* margin-top: 16vw; */
 }
+
+#headerbackgroundlink {
+    margin-left: 35vw;
+    height: max-content;
+    margin-top: 7vw;
+}
+
 #h2-headerbackgroundlink {
     font-family: monospace;
     color: rgba(0, 0, 0, 0);
-    margin-left: 70%;
     text-decoration: none;
+    font-size: 1.2vw;
 }
 
 #h2-headerbackgroundlink:hover {
     font-family: monospace;
     color: white;
-    margin-left: 70%;
     text-decoration: none;
+    font-size: 1.2vw;
 }
 
 #h2-welcome {
-    font-size: 30px;
+    font-size: 1.5vw;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     color:rgb(62, 217, 222);
@@ -138,65 +161,77 @@
 .h1-about {
     color: rgb(0, 235, 252);
     font-family: roboto;
-    font-size: 50px;
+    font-size: 2.5vw;
 }
 
 .h1-about2 {
     color: rgb(0, 235, 252);
     font-family: roboto;
-    font-size: 40px;
+    font-size: 2.5vw;
 }
 
 #h1-recentstuf {
     color: rgb(0, 235, 252);
     font-family: roboto;
     background-color: black;
-    padding: 10px;
-    width: 250px;
+    padding: 0.8vw;
+    width: 17vw;
+    font-size: 2.1vw;
 }
 
 .h1-RecentThingTitle {
     color: rgb(229, 229, 229);
     font-family: monospace;
     margin-left: 2vw;
+    font-size: 1.7vw;
 }
 
 .postShortDesc {
     color: rgb(229, 229, 229);
     font-family: sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 0.1vw;
     margin-left: 2vw;
+    font-size: 1vw;
     
 }
 
 #h1-SocialMedia {
     font-family: roboto;
-    font-size: 30px;
+    font-size: 2vw;
     color: rgb(0, 217, 255);
     text-align: center;
 }
 .h1-intro {
     font-family: roboto;
-    font-size: 25px;
+    font-size: 1.7vw;
     color: white;
 }
 
 .p-about1 {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 1.27vw;
     color: white;
 }
 
 .p-about {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 1.27vw;
     color: white;
+    width: 40vw;
+    height: 10vw;
 }
 .i-have-no-idea-what-this-is {
     color: white;
+    font-size: 1vw;
 }
 
 /* images */
+
+#fusebie {
+    height: 20vw;
+    margin-left: 12vw;
+    clip-path: circle();
+}
 
 #songCoverImg {
     margin-left: 0.5vw;

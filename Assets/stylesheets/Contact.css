@@ -12,16 +12,16 @@
 #sm-links {
     display: flex;
     align-items: stretch;
-    gap: 30px;
+    gap: 2.5vw;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 10vw;
     width: 100%;
-    height: 220px;
+    height: 20vw;
 }
 /* headings */
 
 #h1-pageHeader {
-    font-size: 5rem;
+    font-size: 5vw;
     color: rgb(118, 0, 209);
     text-align: center;
     font-family: monospace;
@@ -31,22 +31,22 @@
 
 #contact-p {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
+    font-size: 1.5vw;
     color: white;
     text-align: center;
 }
 
 /* images */
 .smlink-logo-img {
-    height: 50px;
+    height: 3.5vw;
 }
 
 #github-logo {
-    height: 50px;
+    height: 3.5vw;
     background-color: white;
     border-radius: 50%;
 }
 
 #soundcloud-logo {
-    height: 58px;
+    height: 3.5vw;
 }

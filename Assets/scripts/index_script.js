@@ -26,14 +26,15 @@ function changeTheme(randomInt)
         
         h2_welcome.style.color = "rgb(109, 219, 255)";
     }
-    if (randomInt == 1)
+    if (randomInt == 1) 
     {
         headerContainer.style.backgroundImage = backgroundImageValue;
         headerContainer.style.backgroundPositionY = "-100px"
         
-        h1_Fusebie.style.color = "black";
-        h1_Fusebie.style.textShadow = "-1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255)";
-
+        h1_Fusebie.style.color = "white";
+        // h1_Fusebie.style.textShadow = "-1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255)";
+        h1_Fusebie.style.textShadow = "none";
+        
         h2_welcome.style.color = "rgb(243, 243, 243)";
     }
     if (randomInt == 2)

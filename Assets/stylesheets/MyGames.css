@@ -13,102 +13,76 @@
     align-items: stretch;
 }
 #project2-box {
-    margin-top:5rem;
+    margin-top: 18vw;
+}
+
+#project3-box {
+    margin-top: 18vw;
 }
 
 .game-description-box {
-    margin-left: 20px;
+    margin-left: 1.1vw;
     /* background-color: rgba(0, 0, 0, 0.185); */
     /* border: 3px solid black;
     border-radius: 20px; */
-    width: 900px;
-    height: 400px;
-}
-.h1-b-background-box {
-    display: flex;
-    align-items: center;
-    border: 4px solid white;
-    width: 400px;
-    /* padding-block: 1px; */
-    height: 60px;
-    margin-bottom: 50px;
-    padding: 10px;
+    width: 50vw;
+    height: 10vw;
 }
 
 /*h1 , p , and other text elements*/
 
-.h1-a {
-    color: rgb(63, 204, 255);
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 60px;
-    background-color: rgba(125, 0, 241, 0.384);
-}
-
 .h1-b {
-    color: rgb(63, 204, 255);
+    color: rgb(234, 234, 234);
     font-family: sans-serif;
-    font-size: 50px;
+    font-size: 3.5vw;
+    margin-top: 3vw;
+    margin-left: 10vw;
+    padding-bottom: 3vw;
 }
 
-.h1-c {
+#h1-velocityBean {
     color: rgb(132, 0, 232);
     font-family: sans-serif;
-    font-size: 50px;
-    margin-left: 20px;
+    font-size: 3vw;
+    margin-left: 2vw;
 }
-.h1-d {
+.h1-projectName {
     color: rgb(63, 204, 255);
     font-family: sans-serif;
-    font-size: 50px;
-    margin-left: 20px;
-    text-shadow: -1px -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0), -1px 1px 0 rgb(0, 0, 0), 1px 1px 0 rgb(0, 0, 0);
+    font-size: 3vw;
+    margin-left: 2vw;
 }
-.h2-a {
-    color:rgb(0, 161, 22);
-    text-align: left;
-    margin-left: 30px;
+
+.h1-about-proj {
+    color: rgb(234, 234, 234);
     font-family: monospace;
-    font-size: 30px;
+    font-size: 3vw;
+    margin-left: 3vw;
 }
 
-#h2-trelloBoard-link {
-    color: #9f2aff;
-    font-size: 25px;
-    font-family: sans-serif;
-    margin-left: 20px;
-}
-
-.h1-about-proj1 {
-    color: rgb(63, 204, 255);
-    font-family: monospace;
-    font-size: 50px;
-    margin-left: 40px;
-}
-
-.h1-sysreqrmnts {
+.h1-downloadPrompt {
     color: rgb(0, 235, 252);
     font-family: monospace;
-    font-size: 30px;
-    margin-left: 20px;
+    font-size: 1.8vw;
+    margin-left: 1.1vw;
 }
 
 .p-game-description {
-    margin-left: 20px;
-    font-size: 17px;
-    padding: 10px;
+    margin-left: 1.2vw;
+    font-size: 1vw;
+    padding: 1vw;
     color: white;
     font-family:sans-serif;
     background-color: black;
 }
 .p-discordPromo {
-    margin-left: 20px;
-    font-size: 17px;
+    margin-left: 1.2vw;
+    font-size: 1.1vw;
     color: white;
     font-family:sans-serif;
     width: 60vw;
     background-color: black;
-    padding: 10px;
+    padding: 1vw;
 }
 
 /* buttons */
@@ -179,10 +153,14 @@
 /* embed */
 
 .ItchEmbed {
-    margin-left: 40px;
+    margin-left: 3vw;
+    height: 13vw;
+    width: 40vw;
 }
 
 .ytEmbed-gameplay-video
 {
-    margin-left: 40px;
+    margin-left: 3vw;
+    height: 24vw; 
+    width: 40vw;
 }

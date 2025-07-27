@@ -19,10 +19,11 @@
 #openedwindow {
     display: none;
     position: sticky;
-    top: 7%;
+    top: 20%;
     left: 10%;
+    bottom: 50%;
     right: auto;
-    border: 2px solid white;
+    border: 0.16vw solid white;
     height: 40vw;
     width: 80vw;
     display: flex;
@@ -45,16 +46,18 @@
 }
 
 #openedwindowbutton-container {
-    margin-left: 90%;
+    display: flex;
+    margin-left: 86%;
     margin-right: 0%;
     margin-top: 2px;
     justify-content: space-between;
+    gap: 0.6vw;
 }
 
 .window {
-    border: 2px solid white;
-    width: 700px;
-    height: 470px;
+    border: 0.16vw solid white;
+    width: 47vw;
+    height: 31.5vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -64,15 +67,17 @@
 }
 
 .button-container {
+    display: flex;
     margin-left: 87%;
-    margin-right: 0%;
-    margin-top: 2px;
+    margin-right: 1%;
+    margin-top: 0.2vw;
     justify-content: space-between;
+    gap: 0.6vw;
 }
 
 .windowbutton {
-    padding-left: 2px;
-    padding-right: 2px;
+    height: 1.3vw;
+    width: 1.3vw;
 }
 
 .windowbutton:hover {
@@ -80,38 +85,38 @@
 }
 
 .window-inner {
-    border: 2px solid white;
-    width: 677px;
-    height: 430px;
-    margin-bottom: 5px;
+    border: 0.18vw solid white;
+    width: 45.5vw;
+    height: 28.8vw;
+    margin-bottom: 0.2vw;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
 /* text */
 #h1-pageHeader {
-    font-size: 3rem;
+    font-size: 4vw;
     color: white;
     margin-left: 14.7vw;
     font-family: pixelFont;
     margin-top: 16vw;
-    font-weight: 300;
+    font-weight: 10;
 }
 
 #p-gamestatus {
-    font-size: 1.3rem;
+    font-size: 1.4vw;
     color: white;
     margin-left: 14.7vw;
     font-family: pixelFont;
     margin-top: 6vw;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 #p-discordpromo {
-    font-size: 1rem;
+    font-size: 1.3vw;
     color: white;
     margin-left: 14.7vw;
     font-family: pixelFont;
-    font-weight: 300;
+    font-weight: 100;
 }
 
