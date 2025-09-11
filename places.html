@@ -45,77 +45,90 @@
             <p id="p-discordpromo">join the <a href="https://discord.gg/5d4ZhQeSGj" target="_blank">discord</a> for more info</p>
         </div>
 
-        
-        
-        <div class="window" style="margin-left: 10%; margin-right: 90%;">
-            <div class="button-container">
+        <div id="videoPlayer">
+            <img height="40vw" width="30vw" id="arrowButton1" class="arrowButton" onclick="changeNext('left')" src="/Assets/images/icons/buttons/left-arrow.png" alt="leftArrowButton">
+            <iframe id="gameVideo1" class = "videoEmbed" src="https://www.youtube.com/embed/umtB5syrxd0?si=_vKm5sljbaraoEw2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe id="gameVideo2" class = "videoEmbed" src="https://www.youtube.com/embed/x2iAmo8q1us?si=PN_jmqNF2wtG6if5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <img height="40vw" width="30vw" id="arrowButton2" class="arrowButton" onclick="changeNext('right')" src="/Assets/images/icons/buttons/right-arrow.png" alt="rightArrowButton">
+        </div>
+
+        <div id="dragWindow1" class="window" style="top: 77.7vw; left: 1.1vw; z-index: 3;">
+            <div id="dragWindow1Header" class="button-container">
                 <img width="20px" onclick="" class="windowbutton" src="Assets/images/icons/window/minimizebutton.png" alt="minimize button">
                 <img width="20px" onclick="maximize('/Assets/images/backgrounds/corridor.gif')" class="windowbutton" src="Assets/images/icons/window/maximizebutton.png" alt="maximize button">
                 <img width="20px" onclick="alert('No')" class="windowbutton" src="Assets/images/icons/window/closebutton.png" alt="close button">
             </div>
-            <!-- content -->
+            
             <div class="window-inner" style="background-image: url(Assets/images/backgrounds/corridor.gif);"> 
             </div>
         </div>
-        <div class="window" style="margin-left: 40%; margin-right: 0%;">
-            <div class="button-container">
+
+        <div id="dragWindow2" class="window" style="top: 77.6vw; left: 48.7vw; z-index: 2;">
+            <div id="dragWindow2Header" class="button-container">
                 <img width="20px" onclick="" class="windowbutton" src="Assets/images/icons/window/minimizebutton.png" alt="minimize button">
                 <img width="20px" onclick="maximize('/Assets/images/backgrounds/forest_2.gif')" class="windowbutton" src="Assets/images/icons/window/maximizebutton.png" alt="maximize button">
                 <img width="20px" onclick="alert('No')" class="windowbutton" src="Assets/images/icons/window/closebutton.png" alt="close button">
             </div>
-            <!-- content -->
+            
             <div class="window-inner" style="background-image: url(Assets/images/backgrounds/forest_2.gif);"> 
             </div>
         </div>
-        <div class="window" style="margin-left: 20%; margin-right: 80%;">
-            <div class="button-container">
+
+        <div id="dragWindow3" class="window" style="top: 110.2vw; left: 1vw; z-index: 6;">
+            <div id="dragWindow3Header" class="button-container">
                 <img width="20px" onclick="" class="windowbutton" src="Assets/images/icons/window/minimizebutton.png" alt="minimize button">
                 <img width="20px" onclick="maximize('/Assets/images/backgrounds/snow2.gif')" class="windowbutton" src="Assets/images/icons/window/maximizebutton.png" alt="maximize button">
                 <img width="20px" onclick="alert('No')" class="windowbutton" src="Assets/images/icons/window/closebutton.png" alt="close button">
             </div>
-            <!-- content -->
+            
             <div class="window-inner" style="background-image: url(Assets/images/backgrounds/snow2.gif);"> 
             </div>
         </div>
-        <div class="window" style="margin-left: 30%;">
-            <div class="button-container">
+
+        <div id="dragWindow4" class="window" style="top: 120.8vw; left: 39.1vw; z-index: 4;">
+            <div id="dragWindow4Header" class="button-container">
                 <img width="20px" onclick="" class="windowbutton" src="Assets/images/icons/window/minimizebutton.png" alt="minimize button">
                 <img width="20px" onclick="maximize('/Assets/images/backgrounds/corridor.png')" class="windowbutton" src="Assets/images/icons/window/maximizebutton.png" alt="maximize button">
                 <img width="20px" onclick="alert('No')" class="windowbutton" src="Assets/images/icons/window/closebutton.png" alt="close button">
             </div>
-            <!-- content -->
+            
             <div class="window-inner" style="background-image: url(Assets/images/backgrounds/corridor.png);"> 
             </div>
         </div>
-        <div class="window" style="margin-left: 30%;">
-            <div class="button-container">
+
+        <div id="dragWindow5" class="window" style="top: 110.2vw; left: 49.1vw; z-index: 5;">
+            <div id="dragWindow5Header" class="button-container">
                 <img width="20px" onclick="" class="windowbutton" src="Assets/images/icons/window/minimizebutton.png" alt="minimize button">
                 <img width="20px" onclick="maximize('/Assets/images/backgrounds/corridorRoom1.png')" class="windowbutton" src="Assets/images/icons/window/maximizebutton.png" alt="maximize button">
                 <img width="20px" onclick="alert('No')" class="windowbutton" src="Assets/images/icons/window/closebutton.png" alt="close button">
             </div>
-            <!-- content -->
+            
             <div class="window-inner" style="background-image: url(Assets/images/backgrounds/corridorRoom1.png);"> 
             </div>
         </div>
-        <div class="window" style="margin-left: 10%;">
-            <div class="button-container">
+
+        <div id="dragWindow6" class="window" style="top: 150.1vw; left: 2.7vw; z-index: 1;">
+            <div id="dragWindow6Header" class="button-container">
                 <img width="20px" onclick="" class="windowbutton" src="Assets/images/icons/window/minimizebutton.png" alt="minimize button">
                 <img width="20px" onclick="maximize('/Assets/images/backgrounds/snow2.png')" class="windowbutton" src="Assets/images/icons/window/maximizebutton.png" alt="maximize button">
                 <img width="20px" onclick="alert('No')" class="windowbutton" src="Assets/images/icons/window/closebutton.png" alt="close button">
             </div>
-            <!-- content -->
+            
             <div class="window-inner" style="background-image: url(Assets/images/backgrounds/snow2.png);"> 
             </div>
         </div>
-        <div class="window" style="margin-left: 30%;">
-            <div class="button-container">
+
+        <div id="dragWindow7" class="window" style="top: 139vw; left: 25.6vw; z-index: 7;">
+            <div id="dragWindow7Header" class="button-container">
                 <img width="20px" onclick="" class="windowbutton" src="Assets/images/icons/window/minimizebutton.png" alt="minimize button">
                 <img width="20px" onclick="maximize('/Assets/images/backgrounds/forestbench.png')" class="windowbutton" src="Assets/images/icons/window/maximizebutton.png" alt="maximize button">
                 <img width="20px" onclick="alert('No')" class="windowbutton" src="Assets/images/icons/window/closebutton.png" alt="close button">
             </div>
-            <!-- content -->
+            
             <div class="window-inner" style="background-image: url(Assets/images/backgrounds/forestbench.png);"> 
             </div>
         </div>
+        <!--
+        -->
     </body>
     </html>

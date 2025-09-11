@@ -26,7 +26,7 @@
     display: flex;
     justify-content: space-around;
     font-size:1.35vw;
-    border: 0.21vw solid white;
+    border: 0.21vw solid rgb(225, 225, 225);
     flex-wrap: wrap;
     font-family:sans-serif;
     width: 7vw;
@@ -42,7 +42,7 @@
     display: flex;
     justify-content: space-around;
     font-size: 1.35vw;
-    border: 0.21vw solid white;
+    border: 0.21vw solid rgb(225, 225, 225);
     flex-wrap: wrap;
     font-family:sans-serif;
     width: 7vw;

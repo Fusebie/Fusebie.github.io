@@ -48,7 +48,7 @@
     display: flex;
     justify-content: space-around;
     font-size: 1.35vw;
-    border: 0.21vw solid white;
+    border: 0.21vw solid rgb(225, 225, 225);
     flex-wrap: wrap;
     font-family:sans-serif;
     width: 7.5vw;
@@ -62,7 +62,7 @@
     display: flex;
     justify-content: space-around;
     font-size: 1.35vw;
-    border: 0.21vw solid white;
+    border: 0.21vw solid rgb(225, 225, 225);
     flex-wrap: wrap;
     font-family:sans-serif;
     width: 7.5vw;   
@@ -139,7 +139,7 @@
 
 #h2-headerbackgroundlink:hover {
     font-family: monospace;
-    color: white;
+    color: rgb(225, 225, 225);
     text-decoration: none;
     font-size: 1.2vw;
 }
@@ -155,7 +155,7 @@
 .p-WID {
     font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
-    color:white;
+    color:rgb(225, 225, 225);
     text-align: center;
 }
 
@@ -205,24 +205,24 @@
 .h1-intro {
     font-family: roboto;
     font-size: 1.7vw;
-    color: white;
+    color: rgb(225, 225, 225);
 }
 
 .p-about1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.27vw;
-    color: white;
+    color: rgb(225, 225, 225);
 }
 
 .p-about {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.27vw;
-    color: white;
+    color: rgb(225, 225, 225);
     width: 40vw;
     height: 10vw;
 }
 .i-have-no-idea-what-this-is {
-    color: white;
+    color: rgb(225, 225, 225);
     font-size: 1vw;
 }
 
@@ -248,7 +248,7 @@
     height: 3.9vw;
 }
 #github-logo-img {
-    background-color: white;
+    background-color: rgb(225, 225, 225);
     height: 3.4vw;
     border-radius: 50%;
 }

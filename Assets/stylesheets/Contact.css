@@ -32,7 +32,7 @@
 #contact-p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5vw;
-    color: white;
+    color: rgb(225, 225, 225);
     text-align: center;
 }
 
@@ -43,7 +43,7 @@
 
 #github-logo {
     height: 3.5vw;
-    background-color: white;
+    background-color: rgb(225, 225, 225);
     border-radius: 50%;
 }
 

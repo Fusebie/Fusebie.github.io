@@ -32,7 +32,7 @@
 /*h1 , p , and other text elements*/
 
 .h1-b {
-    color: rgb(234, 234, 234);
+    color: rgb(225, 225, 225);
     font-family: sans-serif;
     font-size: 3.5vw;
     margin-top: 3vw;
@@ -54,7 +54,7 @@
 }
 
 .h1-about-proj {
-    color: rgb(234, 234, 234);
+    color: rgb(225, 225, 225);
     font-family: monospace;
     font-size: 3vw;
     margin-left: 3vw;
@@ -71,14 +71,14 @@
     margin-left: 1.2vw;
     font-size: 1vw;
     padding: 1vw;
-    color: white;
+    color: rgb(225, 225, 225);
     font-family:sans-serif;
     background-color: black;
 }
 .p-discordPromo {
     margin-left: 1.2vw;
     font-size: 1.1vw;
-    color: white;
+    color: rgb(225, 225, 225);
     font-family:sans-serif;
     width: 60vw;
     background-color: black;
@@ -147,7 +147,7 @@
     width: 650px;
 }
 .i-have-no-idea-what-this-is {
-    color: white;
+    color: rgb(225, 225, 225);
 }
 
 /* embed */
