@@ -241,6 +241,13 @@
     max-height: 13.5vw;
 }
 
+#catGameIcon {
+    margin-left: 0.5vw;
+    margin-top: 0.8vw;
+    border-radius: 0.7vw;
+    max-height: 13.5vw;
+}
+
 .smlink-logo-img {
     height: 3.4vw;
 }

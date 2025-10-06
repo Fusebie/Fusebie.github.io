@@ -13,11 +13,14 @@
     align-items: stretch;
 }
 #project2-box {
-    margin-top: 18vw;
+    margin-top: 23vw;
 }
 
 #project3-box {
-    margin-top: 18vw;
+    margin-top: 23vw;
+}
+#project4-box {
+    margin-top: 23vw;
 }
 
 .game-description-box {
@@ -46,6 +49,14 @@
     font-size: 3vw;
     margin-left: 2vw;
 }
+
+#h1-cat {
+    color: rgb(243, 243, 243);
+    font-family: sans-serif;
+    font-size: 3vw;
+    margin-left: 2vw;
+}
+
 .h1-projectName {
     color: rgb(63, 204, 255);
     font-family: sans-serif;
@@ -154,8 +165,8 @@
 
 .ItchEmbed {
     margin-left: 3vw;
-    height: 13vw;
-    width: 40vw;
+    height: 15vw;
+    width: 47vw;
 }
 
 .ytEmbed-gameplay-video
