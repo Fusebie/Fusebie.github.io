@@ -6,7 +6,8 @@
         <title>Fusebie</title>
         <link rel="stylesheet" href="./Assets/stylesheets/index_style.css"/>
         <link rel="stylesheet" href="./Assets/stylesheets/navbar.css">
-        <link rel="shortcut icon" href="./Assets/images/icons/me.ico" type="image/x-icon">
+        <link rel="stylesheet" href="./Assets/stylesheets/window.css">
+        <link rel="shortcut icon" href="./Assets/images/icons/shortcutIcon/me.ico" type="image/x-icon">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,12 +31,11 @@
                 <div id="navbar">
                     <div class="navbar-left">
                         <div class="navbaritemA"><a class="navbar-item" href="index.html">Fusebie</a></div>
-                        <!-- <div class="navbaritemA"><a class="navbar-item" href="index.html">Portfolio</a></div> -->
                     </div>
                     <div class="navbar-right">
                         <!-- <div class="navbaritemD"><a class="navbar-item" href="Music.html">Music</a></div> -->
+                        <div class="navbaritemA"><a class="navbar-item" href="index.html">Portfolio</a></div>
                         <div class="navbaritemB"><a class="navbar-item" href="ProjectsPage.html">projects</a></div>
-                        <div class="navbaritemC"><a class="navbar-item" href="Contact.html">Contact</a></div>
                     </div>
                 </div>
             </header>
@@ -45,59 +45,73 @@
                 <h1 id="h1-fusebie">Fusebie</h1>
                 <a id="headerbackgroundlink" href="places.html" style="text-decoration: none;"><h2 id="h2-headerbackgroundlink">interested in the background?</h2></a>
             </div>
-
         </div>
 
-        <div id="welcome-wrapper">
-            <p id="h2-welcome">welcome to my website :3<p> 
-        </div>
-
-        <div id="about-container">
-            <h1 class="h1-intro">Hey there!</h1>
-            <p class="p-about1">
-                I’m Fusebie, I’m 17, a musician and a computer science enthusiast.
-            </p>
-        </div>
-        <div id="about2-container">
-
-            <h1 class="h1-about2">About</h1> 
-
-            <div id="item1">
-                <p class="p-about">I make video games and music and stuff</p>
-                <img id="fusebie" src="/Assets/images/icons/fusebieAvater2.png" alt="fusebie pixel art avatar">
+        
+        <div id="contentBox">
+            <div id="welcome-wrapper">
+                <p id="h2-welcome">welcome to my website :3<p> 
             </div>
+            <div id="about-container">
+                <h1 class="h1-intro">Hey there!</h1>
+                <p class="p-about1">
+                    I’m Fusebie, I’m 18, and an art and computer science enthusiast.
+                </p>
+            </div>
+            <div id="about2-container">
 
-            <div id="NavBar2">
-                <div id="navbar">
-                    <div class="navbaritemA"><a id="navbar-itemE" href="MyGames.html">My Games</a></div>
-                    <div class="navbaritemB"><a class="navbar-item" href="music.html">My Music</a></div>
+                <h1 class="h1-about2">About</h1> 
+
+                <div id="item1">
+                    <p class="p-about">I make video games, music, and pixel art stuff :3</p>
+                    <img id="fusebie" src="/Assets/images/icons/fusebieAvatar2Better.png" alt="fusebie pixel art avatar">
+                </div>
+
+                <div id="NavBar2">
+                    <div id="navbar2">
+                        <div class="navbaritemA"><a class="navbar-itemE" href="MyGames.html"><img class="pageLinkIconImg" src="/Assets/images/icons/game-icon.png" alt="">My Games</a></div>
+                        <div class="navbaritemB"><a class="navbar-itemE" href="music.html"><img class="pageLinkIconImg" src="/Assets/images/icons/music-icon.png" alt="">My Music</a></div>
+                    </div>
+                </div>
+
+                <div id="recentstuff-section">
+                    <h1 id="h1-recentstuf">Recent Stuff</h1>
+
+                    <div class="recentThing" style="background-color: rgba(0, 0, 0, 0.5);">
+                        <a href="MyGames.html"><img id="catGameIcon" src="/Assets/images/cat game icon.png" alt="cat game icon"></a>
+                            <div class="RT-verticalAlign-box">
+                                <a href="MyGames.html">
+                                    <h1 class="h1-RecentThingTitle" style="color: rgb(0, 176, 170);">Cat</h1>
+                                </a>
+                                <p class="postShortDesc">A new game i made :3 (click on the img)</p>
+                            </div>
+                    </div>
+                    
+                    <div class="recentThing" style="background-color: rgba(0, 0, 0, 0.5);">
+                        <a href="SummerNights(demo).html"><img id="songCoverImg" src="/Assets/images/summer nights (demo) cover art.png" alt="song cover image"></a>
+                            <div class="RT-verticalAlign-box">
+                                <a href="SummerNights(demo).html">
+                                    <h1 class="h1-RecentThingTitle" style="color: rgb(132, 180, 195);">Summer Nights (demo) by me</h1>
+                                </a>
+                                <p class="postShortDesc">I made a song :D (click on the img)</p>
+                            </div>
+                    </div>
                 </div>
             </div>
 
-            <div id="recentstuff-section">
-                <h1 id="h1-recentstuf">Recent Stuff</h1>
-
-                <div class="recentThing">
-                    <a href="MyGames.html"><img id="catGameIcon" src="/Assets/images/cat game icon.png" alt="cat game icon"></a>
-                        <div class="RT-verticalAlign-box">
-                            <a href="MyGames.html"><h1 class="h1-RecentThingTitle">Cat</h1></a>
-                            <p class="postShortDesc">A new game i made :3 (click on the img)</p>
-                        </div>
+            <div id="dragWindow2" class="window">
+                <div id="dragWindow2Header" class="button-container">
+                    <img width="20px" onclick="" class="windowbutton" src="Assets/images/icons/window/minimizebutton.png" alt="minimize button">
+                    <img width="20px" onclick="maximize('/Assets/images/backgrounds/forest_2.gif')" class="windowbutton" src="Assets/images/icons/window/maximizebutton.png" alt="maximize button">
+                    <img width="20px" onclick="alert('No')" class="windowbutton" src="Assets/images/icons/window/closebutton.png" alt="close button">
                 </div>
                 
-                <div class="recentThing">
-                    <a href="SummerNights(demo).html"><img id="songCoverImg" src="/Assets/images/summer nights (demo) cover art.png" alt="song cover image"></a>
-                        <div class="RT-verticalAlign-box">
-                            <a href="SummerNights(demo).html"><h1 class="h1-RecentThingTitle">Summer Nights (demo) by me</h1></a>
-                            <p class="postShortDesc">I made a song :D (click on the img)</p>
-                        </div>
-                </div>
-
-                <!-- <div class="recentThing">
-                    <h1 class="h1-RTtitle">sigma</h1>
-                </div> -->
+                <a href="places.html"><div class="window-inner" style="background-image: url(Assets/images/backgrounds/corridorRoom1.png);"></div></a>
             </div>
         </div>
+        </div>
+
+        
 
         <!-- <div id="item2"><a href="https://roadmap.sh"><img src="https://api.roadmap.sh/v1-badge/tall/65490aad4352f418f82666fc?variant=dark" alt="roadmap.sh"/></a></div> -->
         

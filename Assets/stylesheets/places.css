@@ -55,59 +55,6 @@
     gap: 0.6vw;
 }
 
-.window {
-    border: 0.16vw solid rgb(225, 225, 225);
-    width: 47vw;
-    height: 31.5vw;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.131);
-    position: absolute;
-}
-
-.button-container {
-    display: flex;
-    padding-left: 87%;
-    padding-right: 1%;
-    padding-top: 0.2vw;
-    justify-content: space-between;
-    gap: 0.6vw;
-    cursor: grab;
-}
-.button-container:hover {
-    display: flex;
-    padding-left: 87%;
-    padding-right: 1%;
-    padding-top: 0.2vw;
-    justify-content: space-between;
-    gap: 0.6vw;
-    background-color: rgba(255, 255, 255, 0.25);
-}
-
-.windowbutton {
-    height: 1.3vw;
-    width: 1.3vw;
-    user-select:none;
-}
-
-.windowbutton:hover {
-    background-color: rgb(96, 194, 255);
-    cursor: pointer;
-}
-
-.window-inner {
-    border: 0.18vw solid rgb(225, 225, 225);
-    width: 45.5vw;
-    height: 28.8vw;
-    margin-bottom: 0.2vw;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: black;
-}
 /* text */
 #h1-pageHeader {
     font-size: 4vw;

@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Places</title>
+    <link rel="shortcut icon" href="./Assets/images/icons/shortcutIcon/dev.ico" type="image/x-icon">
     <link rel="stylesheet" href="./Assets/stylesheets/navbar.css">
     <link rel="stylesheet" href="./Assets/stylesheets/places.css">
+    <link rel="stylesheet" href="./Assets/stylesheets/window.css">
     
     <script src="/Assets/scripts/places.js"></script>
 </head>
@@ -33,7 +35,7 @@
                     <div class="navbar-right">
                         <!-- <div class="navbaritemD"><a class="navbar-item" href="Music.html">Music</a></div> -->
                         <div class="navbaritemB"><a class="navbar-item" href="ProjectsPage.html">projects</a></div>
-                        <div class="navbaritemC"><a class="navbar-item" href="Contact.html">Contact</a></div>
+                        <!-- <div class="navbaritemC"><a class="navbar-item" href="Contact.html">Contact</a></div> -->
                     </div>
                 </div>
             </header>
@@ -52,7 +54,7 @@
             <img height="40vw" width="30vw" id="arrowButton2" class="arrowButton" onclick="changeNext('right')" src="/Assets/images/icons/buttons/right-arrow.png" alt="rightArrowButton">
         </div>
 
-        <div id="dragWindow1" class="window" style="top: 77.7vw; left: 1.1vw; z-index: 3;">
+        <div id="dragWindow1" class="window" style="position: absolute; top: 77.7vw; left: 1.1vw; z-index: 3;">
             <div id="dragWindow1Header" class="button-container">
                 <img width="20px" onclick="" class="windowbutton" src="Assets/images/icons/window/minimizebutton.png" alt="minimize button">
                 <img width="20px" onclick="maximize('/Assets/images/backgrounds/corridor.gif')" class="windowbutton" src="Assets/images/icons/window/maximizebutton.png" alt="maximize button">
@@ -63,7 +65,7 @@
             </div>
         </div>
 
-        <div id="dragWindow2" class="window" style="top: 77.6vw; left: 48.7vw; z-index: 2;">
+        <div id="dragWindow2" class="window" style="position: absolute; top: 77.6vw; left: 48.7vw; z-index: 2;">
             <div id="dragWindow2Header" class="button-container">
                 <img width="20px" onclick="" class="windowbutton" src="Assets/images/icons/window/minimizebutton.png" alt="minimize button">
                 <img width="20px" onclick="maximize('/Assets/images/backgrounds/forest_2.gif')" class="windowbutton" src="Assets/images/icons/window/maximizebutton.png" alt="maximize button">
@@ -74,7 +76,7 @@
             </div>
         </div>
 
-        <div id="dragWindow3" class="window" style="top: 110.2vw; left: 1vw; z-index: 6;">
+        <div id="dragWindow3" class="window" style="position: absolute; top: 110.2vw; left: 1vw; z-index: 6;">
             <div id="dragWindow3Header" class="button-container">
                 <img width="20px" onclick="" class="windowbutton" src="Assets/images/icons/window/minimizebutton.png" alt="minimize button">
                 <img width="20px" onclick="maximize('/Assets/images/backgrounds/snow2.gif')" class="windowbutton" src="Assets/images/icons/window/maximizebutton.png" alt="maximize button">
@@ -85,8 +87,8 @@
             </div>
         </div>
 
-        <div id="dragWindow4" class="window" style="top: 120.8vw; left: 39.1vw; z-index: 4;">
-            <div id="dragWindow4Header" class="button-container">
+        <div id="dragWindow5" class="window" style="position: absolute; top: 120.8vw; left: 39.1vw; z-index: 4;">
+            <div id="dragWindow5Header" class="button-container">
                 <img width="20px" onclick="" class="windowbutton" src="Assets/images/icons/window/minimizebutton.png" alt="minimize button">
                 <img width="20px" onclick="maximize('/Assets/images/backgrounds/corridor.png')" class="windowbutton" src="Assets/images/icons/window/maximizebutton.png" alt="maximize button">
                 <img width="20px" onclick="alert('No')" class="windowbutton" src="Assets/images/icons/window/closebutton.png" alt="close button">
@@ -96,8 +98,8 @@
             </div>
         </div>
 
-        <div id="dragWindow5" class="window" style="top: 110.2vw; left: 49.1vw; z-index: 5;">
-            <div id="dragWindow5Header" class="button-container">
+        <div id="dragWindow4" class="window" style="position: absolute; top: 110.2vw; left: 49.1vw; z-index: 5;">
+            <div id="dragWindow4Header" class="button-container">
                 <img width="20px" onclick="" class="windowbutton" src="Assets/images/icons/window/minimizebutton.png" alt="minimize button">
                 <img width="20px" onclick="maximize('/Assets/images/backgrounds/corridorRoom1.png')" class="windowbutton" src="Assets/images/icons/window/maximizebutton.png" alt="maximize button">
                 <img width="20px" onclick="alert('No')" class="windowbutton" src="Assets/images/icons/window/closebutton.png" alt="close button">
@@ -107,7 +109,7 @@
             </div>
         </div>
 
-        <div id="dragWindow6" class="window" style="top: 150.1vw; left: 2.7vw; z-index: 1;">
+        <div id="dragWindow6" class="window" style="position: absolute; top: 150.1vw; left: 2.7vw; z-index: 1;">
             <div id="dragWindow6Header" class="button-container">
                 <img width="20px" onclick="" class="windowbutton" src="Assets/images/icons/window/minimizebutton.png" alt="minimize button">
                 <img width="20px" onclick="maximize('/Assets/images/backgrounds/snow2.png')" class="windowbutton" src="Assets/images/icons/window/maximizebutton.png" alt="maximize button">
@@ -118,7 +120,7 @@
             </div>
         </div>
 
-        <div id="dragWindow7" class="window" style="top: 139vw; left: 25.6vw; z-index: 7;">
+        <div id="dragWindow7" class="window" style="position: absolute; top: 139vw; left: 25.6vw; z-index: 7;">
             <div id="dragWindow7Header" class="button-container">
                 <img width="20px" onclick="" class="windowbutton" src="Assets/images/icons/window/minimizebutton.png" alt="minimize button">
                 <img width="20px" onclick="maximize('/Assets/images/backgrounds/forestbench.png')" class="windowbutton" src="Assets/images/icons/window/maximizebutton.png" alt="maximize button">
