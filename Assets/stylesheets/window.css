@@ -1,5 +1,6 @@
 .window {
     border: 0.16vw solid rgb(225, 225, 225);
+    border-radius: .5vw;
     width: 47vw;
     height: 31.5vw;
     display: flex;
@@ -7,12 +8,12 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0.131);
+    background-color: rgba(255, 255, 255, 0.203);
 }
 
 .button-container {
     display: flex;
-    padding-left: 87%;
+    padding-left: 86%;
     padding-right: 1%;
     padding-top: 0.2vw;
     justify-content: space-between;
@@ -22,7 +23,7 @@
 
 .button-container:hover {
     display: flex;
-    padding-left: 87%;
+    padding-left: 86%;
     padding-right: 1%;
     padding-top: 0.2vw;
     justify-content: space-between;
@@ -33,13 +34,25 @@
 .windowbutton {
     height: 1.3vw;
     width: 1.3vw;
+    padding: .2vw .2vw .2vw .2vw;
     user-select:none;
 }
-
 .windowbutton:hover {
     background-color: rgb(96, 194, 255);
     cursor: pointer;
 }
+
+.windowbuttonClose {
+    height: 1.3vw;
+    width: 1.3vw;
+    padding: .2vw .2vw .2vw .2vw;
+    user-select:none;
+}
+.windowbuttonClose:hover {
+    background-color: rgb(255, 73, 73);
+    cursor: pointer;
+}
+
 
 .window-inner {
     border: 0.18vw solid rgb(225, 225, 225);
@@ -50,4 +63,53 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-color: black;
+}
+
+#openedwindowcontainer {
+    display: none;
+    position: absolute;
+    height: 600%;
+    width: 100%;
+    z-index: 10;
+}
+
+#openedwindow {
+    display: none;
+    position: sticky;
+    top: 50%;
+    left: 10%;
+    transform: translate(0, -50%);
+    border: 0.16vw solid rgb(225, 225, 225);
+    border-radius: 0.5vw;
+    --height: 50vw;
+    /* height: 50vw; */
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.203);
+}
+
+#openedwindow-inner {
+    border: 2px solid rgb(225, 225, 225);
+    width: 78.5vw;
+    height: calc(var(--height));
+    /* height: 47vw; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#openedwindowbutton-container {
+    display: flex;
+    margin-left: 86%;
+    margin-right: 0%;
+    margin-top: 2px;
+    justify-content: space-between;
+    gap: 0.6vw;
 }

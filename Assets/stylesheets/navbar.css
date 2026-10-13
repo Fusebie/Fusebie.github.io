@@ -35,16 +35,6 @@
 .navbar-item:hover {
     background: rgba(0, 221, 255, 0.642);
     color: rgb(5, 5, 5);
-    padding: 1.5vw 3vw;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: space-around;
-    font-size: 1.35vw;
-    border: 0.21vw solid rgb(225, 225, 225);
-    flex-wrap: wrap;
-    font-family:sans-serif;
-    width: 7vw;
 }
 
 .navbarv2-item {
@@ -64,15 +54,5 @@
 .navbarv2-item:hover {
     background: rgba(255, 255, 255, 0.642);
     color: rgb(5, 5, 5);
-    padding: 1.5vw 3vw;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: space-around;
-    font-size: 1.35vw;
-    border: 0.21vw solid rgb(225, 225, 225);
-    flex-wrap: wrap;
-    font-family:sans-serif;
-    width: 7vw;
 }
 

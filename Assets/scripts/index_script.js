@@ -5,99 +5,54 @@ var backgroundImagePaths = ["Assets/images/backgrounds/corridor.png",
                             "Assets/images/backgrounds/snow2.gif",
                             "Assets/images/backgrounds/corridor.gif"
                             ];
-
-var headerContainer = document.getElementById("header-container");
-var h1_Fusebie = document.getElementById("h1-fusebie");
-var h2_welcome = document.getElementById("h2-welcome");
-
-function changeTheme(randomInt)
-{
-    var backgroundimgURL = backgroundImagePaths[randomInt];
-    var backgroundImageValue = `url( ${backgroundimgURL} )`; 
-
-    if (randomInt == 0)
-    {
-        headerContainer.style.backgroundImage = backgroundImageValue;
-        // headerContainer.style.backgroundPositionY = "-250px"
-        headerContainer.style.backgroundSize = "80%";
-        headerContainer.style.backgroundRepeat = "no-repeat";
-        headerContainer.style.backgroundPosition = "center";
-
-        h1_Fusebie.style.color = "white";
-        h1_Fusebie.style.textShadow = "none";
-        
-        h2_welcome.style.color = "rgb(109, 219, 255)";
-    }
-    if (randomInt == 1)
-    {
-        headerContainer.style.backgroundImage = backgroundImageValue;
-        headerContainer.style.backgroundPositionY = "-7vw"
-        headerContainer.style.backgroundRepeat = "no-repeat";
-        headerContainer.style.backgroundSize = "80%";
-        headerContainer.style.backgroundPosition = "center";
-        
-        h1_Fusebie.style.color = "white";
-        h1_Fusebie.style.textShadow = "none";
-
-        h2_welcome.style.color = "rgb(109, 219, 255)";
-    }
-    if (randomInt == 2)
-    {
-        headerContainer.style.backgroundImage = backgroundImageValue;
-        headerContainer.style.backgroundPosition = "center";
-        headerContainer.style.backgroundRepeat = "no-repeat";
-        headerContainer.style.backgroundColor = "#0000"
-        headerContainer.style.backgroundSize = "80%";
-        
-        h1_Fusebie.style.color = "white";
-        h1_Fusebie.style.textShadow = "none";
-
-        h2_welcome.style.color = "rgb(109, 219, 255)";
-    }
-    if (randomInt == 3)
-    {
-        headerContainer.style.backgroundImage = backgroundImageValue;
-        headerContainer.style.backgroundPosition = "center";
-        headerContainer.style.backgroundRepeat = "no-repeat";
-        headerContainer.style.backgroundColor = "#0000"
-        headerContainer.style.backgroundSize = "80%";
-        
-        h1_Fusebie.style.color = "white";
-        h1_Fusebie.style.textShadow = "none";
-
-        h2_welcome.style.color = "rgb(109, 219, 255)";
-    }
-    if (randomInt == 4)
-    {
-        headerContainer.style.backgroundImage = backgroundImageValue;
-        headerContainer.style.backgroundPosition = "center";
-        headerContainer.style.backgroundRepeat = "no-repeat";
-        headerContainer.style.backgroundColor = "#0000"
-        headerContainer.style.backgroundSize = "80%";
-        
-        h1_Fusebie.style.color = "white";
-        h1_Fusebie.style.textShadow = "none";
-
-        h2_welcome.style.color = "rgb(109, 219, 255)";
-    }
-    if (randomInt == 5)
-    {
-        headerContainer.style.backgroundImage = backgroundImageValue;
-        headerContainer.style.backgroundPosition = "center";
-        headerContainer.style.backgroundRepeat = "no-repeat";
-        headerContainer.style.backgroundColor = "#0000"
-        headerContainer.style.backgroundSize = "100%";
-        
-        h1_Fusebie.style.color = "white";
-        h1_Fusebie.style.textShadow = "none";
-
-        h2_welcome.style.color = "rgb(109, 219, 255)";
-    }
-}
+                            
+                            var headerContainer = document.getElementById("header-container");
+                            // var h1_Fusebie = document.getElementById("h1-fusebie");
+                            // var h2_welcome = document.getElementById("h2-welcome");
+                            
 
 function SetRandomTheme()
 {
-    changeTheme(getRndInteger(0, backgroundImagePaths.length - 1));
+    ChangeTheme(getRndInteger(0, backgroundImagePaths.length - 1));
+}
+
+function ChangeTheme(randomInt)
+{
+    console.log(randomInt);
+    var backgroundimgURL = backgroundImagePaths[randomInt];
+    var backgroundImageValue = `url( ${backgroundimgURL} )`; 
+
+    switch (randomInt)
+    {
+        case 0:
+            SetTheme(backgroundImageValue);
+            break;
+        case 1:
+            SetTheme(backgroundImageValue);
+            headerContainer.style.backgroundPositionY = "-7vw"
+            break;
+        case 2:
+            SetTheme(backgroundImageValue);
+            break;
+        case 3:
+            SetTheme(backgroundImageValue);
+            break;
+        case 4:
+            SetTheme(backgroundImageValue);
+            break;
+        case 5:
+            SetTheme(backgroundImageValue, "center", "100%");
+            break;
+    }
+}
+
+function SetTheme(bgImg, bgPos = "center", bgSize = "80%", bgRepeat = "no-repeat", bgColor = "#0000")
+{
+    headerContainer.style.backgroundImage = bgImg;
+    headerContainer.style.backgroundPosition = bgPos;
+    headerContainer.style.backgroundRepeat = bgRepeat;
+    headerContainer.style.backgroundColor = bgColor;
+    headerContainer.style.backgroundSize = bgSize;
 }
 
 function getRndInteger(minInclusive, maxInclusive) {

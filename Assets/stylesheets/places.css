@@ -1,5 +1,5 @@
 #body {
-    background-color: black;
+    background-color: rgb(21, 21, 21);
 }
 
 @font-face {
@@ -8,52 +8,6 @@
 }
 
 /* div */
-#openedwindowcontainer {
-    display: none;
-    position: absolute;
-    height: 600%;
-    width: 99%;
-    z-index: 10;
-}
-
-
-#openedwindow {
-    display: none;
-    position: sticky;
-    top: 20%;
-    left: 10%;
-    bottom: 50%;
-    right: auto;
-    border: 0.16vw solid rgb(225, 225, 225);
-    height: 40vw;
-    width: 80vw;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-}
-
-#openedwindow-inner {
-    border: 2px solid rgb(225, 225, 225);
-    width: 78.5vw;
-    height: 37vw;
-    margin-bottom: 5px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-color: black;
-}
-
-#openedwindowbutton-container {
-    display: flex;
-    margin-left: 86%;
-    margin-right: 0%;
-    margin-top: 2px;
-    justify-content: space-between;
-    gap: 0.6vw;
-}
 
 /* text */
 #h1-pageHeader {

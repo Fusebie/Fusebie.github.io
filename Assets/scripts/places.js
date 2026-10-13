@@ -87,7 +87,6 @@ window.addEventListener('load', setupDragElements);
 window.addEventListener('load', InitializeWindowsQueue);
 window.addEventListener('load', getVideoEmbedsAndButtons);
 
-
 function setupDragElements()
 {
     dragElement("dragWindow1");
